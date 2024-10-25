@@ -26,6 +26,3 @@ if st.button("Predict"):
     else:
         st.write("Please enter some text for prediction.")
 
-# Ajouter une image avec une taille réduite
-# st.image(r'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\lweli.jpg', width=300) 
-# st.image(r'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\lweli.jpg', caption='Sentiment Analysis Visualization', use_column_width=True)
