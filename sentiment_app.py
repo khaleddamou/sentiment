@@ -26,29 +26,6 @@ if st.button("Predict"):
     else:
         st.write("Please enter some text for prediction.")
 
-st.write("")  
-st.write("")  
-st.write("")  
-
-
-col1, col2, col3 = st.columns([1, 2, 1])  # Colonne du milieu plus large pour centrer
-with col2:
-    # Ajouter du texte en gras au-dessus de l'image
-    st.markdown("**rane mbarkin l'application b souret lweli hh**")
-
-    # Ajouter une image avec une taille réduite
-    st.image('lweli.jpg', width=300)
-
-# st.markdown("""
-#     <div style="text-align: center;">
-#         <strong>Sentiment Analysis Visualization</strong><br>
-#         <img src= 'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\lweli.jpg', width="300">
-#     </div>
-#     """, unsafe_allow_html=True)
-
-# # Ajouter du texte en gras au-dessus de l'image
-# st.markdown("**Sentiment Analysis Visualization**")
-
 # Ajouter une image avec une taille réduite
 # st.image(r'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\lweli.jpg', width=300) 
 # st.image(r'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\lweli.jpg', caption='Sentiment Analysis Visualization', use_column_width=True)
