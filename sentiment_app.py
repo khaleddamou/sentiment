@@ -3,8 +3,8 @@ from tkinter import messagebox
 import joblib
 
 # Charger le modèle et le vectoriseur
-vectorizer = joblib.load(r'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\tfidf_vectorizer.joblib')
-model = joblib.load(r'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\random_forest_model.joblib')
+vectorizer = joblib.load('tfidf_vectorizer.joblib')
+model = joblib.load('random_forest_model.joblib')
 
 
 # Fonction de prédiction
@@ -38,7 +38,7 @@ with col2:
     st.markdown("**rane mbarkin l'application b souret lweli hh**")
 
     # Ajouter une image avec une taille réduite
-    st.image(r'C:\Users\hp\OneDrive\Bureau\NLP\Sentiment_tp\lweli.jpg', width=300)
+    st.image('lweli.jpg', width=300)
 
 # st.markdown("""
 #     <div style="text-align: center;">
