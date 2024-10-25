@@ -17,7 +17,7 @@ def predict_sentiment(text):
 # Interface Streamlit
 st.title("Sentiment Analysis Predictor")
 
-user_input = st.text_area("Kteb commentaire b l'anglais ta3rav kano positive walla negative kivtak")
+user_input = st.text_area("Enter a text to analyze sentiment")
 
 if st.button("Predict"):
     if user_input:
