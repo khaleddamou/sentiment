@@ -1,12 +1,10 @@
 streamlit
 joblib
-Pillow
-numpy
-setuptools
+pillow
+numpy==1.26.4
 dill
 keras
-tensorflow
-sklearn
+tensorflow==2.17.0
+scikit-learn
 matplotlib
-random
 pandas
