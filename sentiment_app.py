@@ -1,5 +1,4 @@
 import streamlit as st
-from tkinter import messagebox
 import joblib
 
 # Charger le modèle et le vectoriseur
